@@ -93,4 +93,4 @@ Full Stack Web Developer
 
 GitHub: https://github.com/Piyush1444742
 
-LinkedIn: https://linkedin.com/in/your-linkedin
+LinkedIn: [https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/piyush-tupat-54a971370/)
