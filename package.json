@@ -1,16 +1,19 @@
 {
   "name": "shopnext-fullstack",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "Piyush",
-  "type": "commonjs",
-  "main": "index.js",
+  "description": "Full Stack MERN E-Commerce Website",
+  "private": true,
   "scripts": {
-    "install": "cd backend && npm install && cd../frontend/shopnext-frontend && npm install",
+    "install": "cd backend && npm install && cd ../frontend/shopnext-frontend && npm install",
     "dev:server": "cd backend && npm run dev",
     "dev:client": "cd frontend/shopnext-frontend && npm run dev",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "build": "cd frontend/shopnext-frontend && npm run build"
+
+    "build": "cd frontend/shopnext-frontend && npm install && npm run build",
+
+    "start": "cd backend && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
   }
 }
