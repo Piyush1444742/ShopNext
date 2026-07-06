@@ -4,7 +4,7 @@
   "description": "Full Stack MERN E-Commerce Website",
   "private": true,
   "scripts": {
-    "install": "cd backend && npm install && cd ../frontend/shopnext-frontend && npm install",
+    "install": "cd frontend/shopnext-frontend && npm install && npm run build && cd ../../backend && npm install",
     "dev:server": "cd backend && npm run dev",
     "dev:client": "cd frontend/shopnext-frontend && npm run dev",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
